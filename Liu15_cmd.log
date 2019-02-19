@@ -1,0 +1,21 @@
+$\mathrm{T}_\mathsf{a}^\mathsf{obs}$
+$\mathrm{T}_\mathsf{a}^\mathsf{for}$
+$\mathrm{T}_\mathsf{a}^\mathsf{ana}$
+
+
+
+$\mathrm{T}_\mathsf{a}^\mathsf{ana} = \mathrm{T}_\mathsf{a}^\mathsf{for} + \mathrm{K}_\mathsf{a}^\mathsf{ADA}\times (\mathrm{T}_\mathsf{a}^\mathsf{obs} - \mathrm{T}_\mathsf{a}^\mathsf{for})$
+
+$\mathrm{T}_\mathsf{o}^\mathsf{ana} = \mathrm{T}_\mathsf{o}^\mathsf{for} + \mathrm{K}_\mathsf{o}^\mathsf{ODA}\times (\mathrm{T}_\mathsf{o}^\mathsf{obs} - \mathrm{T}_\mathsf{o}^\mathsf{for})$
+
+$\mathrm{K}_\mathsf{o/a}^\mathsf{ODA/ADA} = \frac{\langle \mathrm{T}_\mathsf{o/a}^\mathsf{for} \rangle^2}{\langle \mathrm{T}_\mathsf{o/a}^\mathsf{for} \rangle^2 + \sigma_\mathsf{o/a}^2}$
+
+$\langle \hat{\mathrm{T}}_\mathsf{a}^\mathsf{for} \rangle$
+$\sigma_\mathsf{a}$
+
+$\langle \mathrm{T}_\mathsf{o}^\mathsf{for} \rangle$
+$\sigma_\mathsf{o}$
+
+$\mathrm{T}_\mathsf{a}^\mathsf{ana} = \mathrm{T}_\mathsf{a}^\mathsf{for} + \mathrm{K}_\mathsf{oa}^\mathsf{CDA}\times (\hat{\mathrm{T}}_\mathsf{o}^\mathsf{obs} - \hat{\mathrm{T}}_\mathsf{o}^\mathsf{for})$
+
+$\hat{\mathrm{T}}\equiv\hat{\mathcal{O}}(t_1,t_2 < t)\mathrm{T}$
