@@ -28,15 +28,15 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2325395"
-     inkscape:cx="799.59474"
-     inkscape:cy="935.57778"
+     inkscape:cx="717.27696"
+     inkscape:cy="914.59844"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3226-8-9-5"
      showgrid="false"
      inkscape:window-width="1440"
-     inkscape:window-height="856"
-     inkscape:window-x="0"
-     inkscape:window-y="1"
+     inkscape:window-height="855"
+     inkscape:window-x="1920"
+     inkscape:window-y="148"
      inkscape:window-maximized="1"
      inkscape:snap-global="false"
      showguides="true" />
@@ -10018,7 +10018,7 @@
          height="18.031878"
          width="73.844826"
          id="rect78437"
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#626262;stroke-width:0.26499999;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#626262;stroke-width:0.265;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <g
        id="g86134"
@@ -10390,47 +10390,233 @@
            id="path84088" /></g>    </g>
     <g
        id="g86098-7"
-       transform="translate(-4.5313215e-4,-54.270417)">
+       transform="matrix(0.9994931,0,0,1.2328496,0.11692077,-65.544919)">
       <rect
-         y="78.430946"
-         x="194.62695"
-         height="18.031878"
-         width="73.844826"
+         y="49.531986"
+         x="194.70779"
+         height="46.849998"
+         width="73.683144"
          id="rect78437-36"
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#626262;stroke-width:0.26499999;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#626262;stroke-width:0.23872666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51621485px;line-height:1.25;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11290528"
-       x="209.18907"
-       y="30.145046"
+       x="196.63461"
+       y="38.611748"
        id="text3279"><tspan
          sodipodi:role="line"
          id="tspan3277"
-         x="209.18907"
-         y="30.145046"
+         x="196.63461"
+         y="38.611748"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';stroke-width:0.11290528">ODA = Ocean WCDA</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51621485px;line-height:1.25;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11290528"
-       x="202.23148"
-       y="34.495647"
+       x="196.70078"
+       y="45.07901"
        id="text3279-0"><tspan
          sodipodi:role="line"
          id="tspan3277-1"
-         x="202.23148"
-         y="34.495647"
+         x="196.70078"
+         y="45.07901"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';stroke-width:0.11290528">ADA = Atmosphere WCDA</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51621485px;line-height:1.25;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11290528"
        x="196.57729"
-       y="39.849613"
+       y="51.491295"
        id="text3279-5"><tspan
          sodipodi:role="line"
          id="tspan3277-11"
          x="196.57729"
-         y="39.849613"
+         y="51.491295"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';stroke-width:0.11290528">CDA = Cross-covariance DA</tspan></text>
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="g11697-1-3-1-7"
+       transform="matrix(0.51284653,0,0,-0.51284653,92.483579,372.66955)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:text="$\\bigotimes$"
+       ns0:preamble="/Users/asi066/Documents/preamble.tex"><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 216.55724,709.58 h -0.51 c 0,-1.2 -0.43,-2.3 -1.29,-3.27 l -3.23,3.21 3.3,3.29 c 0.81,-0.98 1.22,-2.05 1.22,-3.23 v 0 h 0.51 c 0,2.99 -2.44,5.42 -5.45,5.42 v -0.51 c 1.19,0 2.3,-0.43 3.31,-1.25 v 0 l -3.33,-3.29 -3.28,3.27 c 0.98,0.84 2.09,1.27 3.3,1.27 V 715 c -3,0 -5.43,-2.43 -5.43,-5.42 h 0.51 c 0,1.18 0.41,2.25 1.22,3.23 l 3.27,-3.28 -3.24,-3.23 c -0.82,1 -1.25,2.08 -1.25,3.28 h -0.51 c 0,-2.98 2.43,-5.4 5.43,-5.4 v 0.5 c -1.16,0 -2.23,0.41 -3.22,1.2 l 3.22,3.23 3.23,-3.21 c -0.98,-0.81 -2.07,-1.22 -3.23,-1.22 v -0.5 c 3.01,0 5.45,2.42 5.45,5.4 z"
+         id="path11695-2-54-7-9" /></g>    <g
+       ns0:preamble="/Users/asi066/Documents/preamble.tex"
+       ns0:text="$\\bigoplus$"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(0.51286759,0,0,-0.51286759,82.953766,364.91253)"
+       id="g11999-4-7-7-3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><path
+         id="path11997-5-8-4-8"
+         d="m 235.13,709.58 -0.51,-0.22 c -0.21,-2.55 -2.12,-4.45 -4.67,-4.67 v 4.67 h 4.67 l 0.51,0.22 c 0,2.99 -2.44,5.42 -5.45,5.42 l 0.27,-0.51 h -0.55 v -4.52 h -4.63 c 0.28,2.48 2.14,4.28 4.63,4.52 h 0.55 c 2.5,-0.24 4.38,-2.07 4.66,-4.52 v 0 h -4.66 v 4.52 l -0.27,0.51 c -3,0 -5.43,-2.43 -5.43,-5.42 l 0.51,-0.22 h 4.64 v -4.68 c -2.56,0.24 -4.43,2.15 -4.64,4.68 l -0.51,0.22 c 0,-2.98 2.43,-5.4 5.43,-5.4 3.01,0 5.45,2.42 5.45,5.4 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /></g>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51621485px;line-height:1.25;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11290528"
+       x="207.70586"
+       y="2.6679296"
+       id="text3279-02"><tspan
+         sodipodi:role="line"
+         id="tspan3277-4"
+         x="207.70586"
+         y="2.6679296"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';stroke-width:0.11290528">= calc. K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.79328346px;line-height:1.25;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09483208"
+       x="233.56839"
+       y="3.9201288"
+       id="text3200"><tspan
+         sodipodi:role="line"
+         id="tspan3198"
+         x="233.56839"
+         y="3.9201288"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';stroke-width:0.09483208">o/a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76489425px;line-height:1.25;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06912236"
+       x="233.5361"
+       y="-0.19902143"
+       id="text3200-7"><tspan
+         sodipodi:role="line"
+         id="tspan3198-6"
+         x="233.5361"
+         y="-0.19902143"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';stroke-width:0.06912236">ODA/ADA</tspan></text>
+    <g
+       id="g3226-8"
+       transform="translate(1.139139,-0.15339286)">
+      <text
+         id="text3279-02-3"
+         y="10.295682"
+         x="206.64752"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51621485px;line-height:1.25;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11290528"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';stroke-width:0.11290528"
+           y="10.295682"
+           x="206.64752"
+           id="tspan3277-4-8"
+           sodipodi:role="line">= analysis + forecast</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.81859857;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 197.24323,23.77747 h 6.92108"
+       id="path3261"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g3226-8-9"
+       transform="translate(1.1021265,14.907163)">
+      <text
+         id="text3279-02-3-7"
+         y="10.295682"
+         x="206.64752"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51621485px;line-height:1.25;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11290528"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';stroke-width:0.11290528"
+           y="10.295682"
+           x="206.64752"
+           id="tspan3277-4-8-5"
+           sodipodi:role="line">= WCDA data flow</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.81900001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.63799996, 1.63799996;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 196.95833,30.221868 h 7.49088"
+       id="path3261-5"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g3226-8-9-2"
+       transform="translate(1.2021747,21.394221)">
+      <text
+         id="text3279-02-3-7-4"
+         y="10.295682"
+         x="206.64752"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51621485px;line-height:1.25;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11290528"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';stroke-width:0.11290528"
+           y="10.295682"
+           x="206.64752"
+           id="tspan3277-4-8-5-9"
+           sodipodi:role="line">= CDA data flow</tspan></text>
+    </g>
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="g13136-6-0-7-3-9-8-4"
+       transform="matrix(0.5128676,0,0,-0.5128676,82.213877,391.37993)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:text="$\\bigodot$"
+       ns0:preamble="/Users/asi066/Documents/preamble.tex"><g
+         transform="translate(1.4420166,21.121241)"
+         id="g27978-5-2-7-5-4"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"><path
+           id="path13132-2-4-9-7-7-8-7"
+           d="m 235.13,709.58 -0.01,0.28 -0.02,0.28 -0.03,0.27 -0.05,0.27 -0.06,0.26 -0.08,0.25 -0.08,0.26 -0.1,0.24 -0.11,0.24 -0.12,0.23 -0.13,0.23 -0.14,0.22 -0.15,0.21 -0.17,0.21 -0.17,0.19 -0.18,0.19 -0.19,0.18 -0.19,0.17 -0.21,0.16 -0.21,0.15 -0.22,0.14 -0.23,0.13 -0.24,0.12 -0.24,0.11 -0.25,0.1 -0.25,0.08 -0.26,0.08 -0.26,0.06 -0.27,0.05 -0.27,0.03 -0.28,0.02 -0.28,0.01 c -3,0 -5.43,-2.43 -5.43,-5.42 0,-2.98 2.43,-5.4 5.43,-5.4 v 0.5 c -2.71,0 -4.92,2.2 -4.92,4.9 0,2.71 2.21,4.91 4.92,4.91 2.72,0 4.94,-2.2 4.94,-4.91 v 0 c 0,-2.7 -2.22,-4.9 -4.94,-4.9 v -0.5 c 3.01,0 5.45,2.42 5.45,5.4 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1" /><path
+           id="path13134-5-8-5-3-9-9-9"
+           d="m 230.48,709.72 v 0.04 0.04 l -0.01,0.04 v 0.04 l -0.01,0.04 -0.01,0.03 -0.02,0.04 -0.01,0.04 -0.02,0.03 -0.01,0.03 -0.02,0.04 -0.02,0.03 -0.03,0.03 -0.02,0.03 -0.02,0.03 -0.03,0.03 -0.03,0.02 -0.03,0.03 -0.03,0.02 -0.03,0.02 -0.03,0.02 -0.03,0.02 -0.04,0.02 -0.03,0.02 -0.04,0.01 -0.03,0.01 -0.04,0.01 -0.04,0.01 -0.04,0.01 h -0.04 l -0.04,0.01 h -0.03 c -0.44,0 -0.79,-0.36 -0.79,-0.79 0,-0.44 0.35,-0.78 0.79,-0.78 0.42,0 0.78,0.34 0.78,0.78 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:1" /></g></g>    <g
+       id="g3226-8-9-5"
+       transform="translate(1.158139,7.6701626)">
+      <text
+         id="text3279-02-3-7-5"
+         y="10.295682"
+         x="206.64752"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.51621485px;line-height:1.25;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11290528"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';stroke-width:0.11290528"
+           y="10.295682"
+           x="206.64752"
+           id="tspan3277-4-8-5-6"
+           sodipodi:role="line">= calc. K </tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.79328346px;line-height:1.25;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09483208"
+         x="232.27025"
+         y="11.447087"
+         id="text3200-1"><tspan
+           sodipodi:role="line"
+           id="tspan3198-5"
+           x="232.27025"
+           y="11.447087"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';stroke-width:0.09483208">oa/ao</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76489425px;line-height:1.25;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06912236"
+         x="232.23796"
+         y="7.327939"
+         id="text3200-7-9"><tspan
+           sodipodi:role="line"
+           id="tspan3198-6-1"
+           x="232.23796"
+           y="7.327939"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'SF Mono';-inkscape-font-specification:'SF Mono';stroke-width:0.06912236">CDA</tspan></text>
+    </g>
   </g>
 </svg>
