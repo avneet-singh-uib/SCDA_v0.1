@@ -21,3 +21,20 @@ $\mathrm{T}_\mathsf{a}^\mathsf{ana} = \mathrm{T}_\mathsf{a}^\mathsf{for} + \math
 $\hat{\mathrm{T}}^\mathsf{obs/for}\equiv\hat{\mathsf{O}}^\mathsf{obs/for}(t_1,t_2 \leq t)\mathrm{T}$
 
 $\mathrm{K}_\mathsf{xy}^\mathsf{CDA} = \frac{\langle\mathrm{T}_\mathsf{y}^\mathsf{for}, \hat{\mathrm{T}}_\mathsf{x}^\mathsf{obs} - \hat{\mathrm{T}}_\mathsf{x}^\mathsf{for}\rangle}{\langle \hat{\mathrm{T}}_\mathsf{x}^\mathsf{obs} - \hat{\mathrm{T}}_\mathsf{x}^\mathsf{for} \rangle^2}$
+
+$\displaystyle\propto \int^{\infty}_{-\infty}\mathrm{T}_\upalpha(t) \mathrm{T}_\upgamma(t+\tau)\mathrm{d}t$
+
+$$\begin{bmatrix}
+    a_{\mathsf{aa}} & a_{\mathsf{ao}} \\
+    a_{\mathsf{oa}} & a_{\mathsf{oo}} \\
+\end{bmatrix}$$
+
+$$\begin{bmatrix}
+    \frac{\mathrm{d}}{\mathrm{d}t} & 0 \\
+    0 & m\frac{\mathrm{d}}{\mathrm{d}t} \\
+\end{bmatrix}$$
+
+$$\begin{bmatrix}
+    \mathrm{T}_\mathsf{a}\\
+    \mathrm{T}_\mathsf{o}\\
+\end{bmatrix}$$
