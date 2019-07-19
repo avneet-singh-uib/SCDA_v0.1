@@ -10,3 +10,4 @@ Important sidenote:
 
 When making the LACC method infographic, I had noted that 'selective mode filtering' could be useful when assimilating leading averaged observations over some leading time T (ref: Liu15.png). After becoming aware of the Lyapunov formulation, I wondered whether one could use their spectrum to filter stable and unstable modes from a set of leading observations spanning time T and formulate an approach that will assimilate only the useful information and discard 'trash'. Thus, what follows below is a first pseudo-description of it.
 
+01
