@@ -1,0 +1,73 @@
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+%-------------------------------------
+%color definitions
+\definecolor{armygreen}{rgb}{0.14, 0.71, 0.15}
+\definecolor{darkgreen}{rgb}{0.08, 0.48, 0.18}
+\definecolor{darkred}{rgb}{0.86, 0.153, 0.153}
+\definecolor{azure}{rgb}{0.0, 0.5, 1.0}
+\definecolor{bole}{rgb}{0.82, 0.57, 0.22}
+
+
+%-------------------------------------
+%re-define integral
+\makeatletter
+\DeclareSymbolFont{largesymbolsB}{U}{esint}{m}{n}
+\re@DeclareMathSymbol{\intop}{\mathop}{largesymbolsB}{'001}
+\def\int{\intop\nolimits}
+\makeatother
+
+
+%-------------------------------------
+%url icon
+\newcommand{\ExternalLink}{%
+\tikz[x=1.2ex, y=1.2ex, baseline=-0.05ex]{%
+\begin{scope}[x=1ex, y=1ex]
+\clip (-0.1,-0.1)
+--++ (-0, 1.2)
+--++ (0.6, 0)
+--++ (0, -0.6)
+--++ (0.6, 0)
+--++ (0, -1);
+\path[draw,
+line width = 0.5,
+rounded corners=0.5]
+(0,0) rectangle (1,1);
+\end{scope}
+\path[draw, line width = 0.5] (0.5, 0.5)
+-- (1, 1);
+\path[draw, line width = 0.5] (0.6, 1)
+-- (1, 1) -- (1, 0.6);
+}
+}
+
+%-------------------------------------
+%redefine \dot --> \dt
+\newcommand*{\dt}[1]{
+\accentset{\mbox{\footnotesize\bfseries .}}{#1}}
+\newcommand*{\ddt}[1]{
+\accentset{\mbox{\footnotesize\bfseries ..}}{#1}}
+
+%-------------------------------------
+%definitions
+\newcommand{\tit}[1]{{\fontfamily{ppl}\selectfont \textit{#1}}}
+\newcommand{\qag}[1]{{\fontfamily{qag}\selectfont #1}}
+\newcommand{\cou}[1]{{\fontfamily{pcr}\selectfont #1}}
+\def\Hz{$\,$Hz}
+\def\ccos{\text{\,\tit{cos}\,}}
+\def\csin{\text{\,\tit{sin}\,}}
+\def\ctan{\text{\,\tit{tan}\,}}
+
+\newcommand{\vars}[2]{#1_\mathsf{#2}}
+\newcommand{\varr}[2]{#1_\mathrm{#2}}
+\newcommand{\vams}[2]{\mathrm{#1}_\mathsf{#2}}
+\newcommand{\vass}[2]{\mathsf{#1}_\mathsf{#2}}
+
+\def\ta{\mathsf{T_A}}
+\def\to{\mathsf{T_O}}
+

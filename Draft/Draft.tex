@@ -1,0 +1,162 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{lmodern}
+
+%-------------------------------------
+%heading font-size
+\usepackage{sectsty}
+\sectionfont{\fontsize{12}{15}\selectfont}
+
+%-------------------------------------
+%other packages
+%\usepackage{extsizes}
+%\usepackage{textgreek}
+\usepackage{multicol}
+%\usepackage{fullpage}
+%\usepackage{setspace}
+%\usepackage{pdflscape}
+\usepackage[export]{adjustbox}
+\usepackage{subcaption} 
+\usepackage{rotating}
+%\usepackage{caption}
+%\usepackage{chngcntr}
+
+%-------------------------------------
+%packages
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{sansmath}
+\usepackage[a4paper,margin=1in,footnotesep=2.2\baselineskip]{geometry}
+\usepackage{times}
+\usepackage{newtxtext,newtxmath}
+%\usepackage{txfonts}
+%\usepackage{framed}
+%\usepackage{relsize}
+\usepackage{mathtools}
+%\usepackage{xfrac}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage[Symbol]{upgreek}
+%\usepackage{array}
+%\usepackage{multirow}
+\usepackage{accents}
+%\usepackage[T1]{fontenc}
+\usepackage{esint} 
+%\usepackage{lipsum}
+\usepackage{float}
+%\usepackage{bbm}
+\usepackage{epstopdf}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{fancyhdr}
+\usepackage{changepage}
+
+
+%-------------------------------------
+%footnote positioning
+\usepackage[hang,flushmargin,bottom]{footmisc} 
+
+
+%-------------------------------
+%color definitions
+\definecolor{armygreen}{rgb}{0.14, 0.71, 0.15}
+\definecolor{darkgreen}{rgb}{0.08, 0.48, 0.18}
+\definecolor{darkred}{rgb}{0.86, 0.153, 0.153}
+\definecolor{azure}{rgb}{0.0, 0.5, 1.0}
+\definecolor{bole}{rgb}{0.82, 0.57, 0.22}
+
+%-------------------------------
+%bibliography
+\usepackage[numbers,sort]{natbib}
+%\usepackage{navigator}
+\usepackage[colorlinks=true,
+            linkcolor=blue,
+            urlcolor=blue,
+            citecolor=blue]{hyperref}
+\urlstyle{sf}
+\pagestyle{fancy}
+\DeclareCaptionLabelFormat{adja-page}{\hrulefill\\#1 #2 \emph{(\tit{previous page})}}
+
+
+%------------------------------- 
+%search parameters
+\input{Macros.tex}
+
+\begin{document}
+\fancyhead[L]{\footnotesize\tit{Avneet Singh et al}}
+\fancyhead[R]{{\footnotesize \tit{published as}}}
+\newpage
+\topskip15pt
+\begin{center}
+
+\textbf{\large Mediating scale separation in Strongly Coupled Data Assimilation}\linebreak
+
+{\small \input{Authors.tex} \linebreak\linebreak}
+{\footnotesize \input{Institutes.tex}}
+
+\setcounter{footnote}{0}
+
+\begin{abstract}
+Data Assimilation (DA) in a simple coupled system set-up is explored using linear and non-linear coupled toy models capturing the macroscopic properties of the ocean-atmosphere interactions. We especially concentrate on the effects of temporal scale separation between the oceanic and atmospheric sub-components, and its effects on the optimal implementation and possible modifications at the zeroth order to the typical DA procedures employed in weather forecasting and climate prediction.
+\end{abstract}
+\end{center}
+
+\begin{multicols}{2}
+\section{Introduction}
+\label{sec:intro}
+Data Assimilation (\tit{abbrev}. DA), broadly speaking, is a conceptual and mathematical framework that aims to combine the information from observational datasets with the predictions from proposed model forms in order to yield a `true' estimate of the state; the `true' state in this case refers to the derived state that is a more accurate representation of the system than what is predicted by the model, or implied by the observations, independently. In some sense, DA could be interpreted as a propagation of an initial forecast state predicted by a given model towards higher likelihood by \tit{assimilating} the observations. In context of complex earth systems, DA has been long utilised in geosciences, especially in meteorology and weather prediction \citep{carrassi2018}, climate change \citep{hannart2016}, and more recently in attempting long-term climate prediction \citep{penny2019}.  In this paper, we will concentrate on the application of DA to meteorology -- often interpreted as accurate forecasts on short time-scales ($\lesssim$ 2 weeks), and climate prediction -- on time-scales longer than typical range covered by meteorology or weather prediction ($\gtrsim$ 2 weeks). In such earth systems, the proposed models are typically dynamic, high-dimensional and qualitatively error-prone due to the inherent complexity in modelling the system. In particular, the dynamic nature of the models result in a discrete and sequential implementation of DA in time \citep{carrassi2018}; this essentially differentiates DA from a matched-filtering procedure where the model forms are deterministic and incorporate explicit time-dependence. 
+
+Theoretically speaking, the complexity -- and accuracy -- of DA for a given system is shared by the intrinsic complexity in the model form (e.g. model degrees of freedom, participating sub-systems, etc) as well as the nature of observations (e.g. the spatial and temporal scarcity of data points, accuracy of the observational datasets, etc). In practice, however, limitations on DA due to the nature of observational datasets are largely systematic and extrinsic, while the impact of the model form has a more fundamental and profound impact. In this respect, the case of coupled systems is extremely relevant and interesting since it presents with a realistic challenge where the model form of the system entails two or more sub-components with differing time-scales, e.g. ocean-atmosphere coupled earth system. This has a fundamental impact on the accuracy of DA on each observed sub-component on any intended time-scale and to varying magnitudes \citep{tondeur2019, penny2019}. In this paper, we will study the effects of multi-component coupling in the model form on the DA procedure using two toy models capturing the macroscopic properties of ocean-atmosphere interactions -- one linear, and one non-linear and chaotic. The intention, in the end, is to develop a zero-order treatment of sequential coupled data assimilation and possible modifications to it in the linear as well as non-linear and chaotic regime.
+
+\section{Linear coupled model form}
+\label{sec:linear}
+The linear toy model for the first case study is adopted from \citet{barsugli1998}, which is a simple one-dimensional, thermally coupled, purely temporal and stochastically forced atmosphere-ocean system of the form
+\begin{equation}
+\mathsf{m}\frac{\vass{dT}{O}}{\mathsf{d}t} = \vams{C}{OO}\to + \vams{C}{OA}\ta,\label{eq:linmodel1}
+\end{equation}
+\begin{equation}
+\frac{\vass{dT}{A}}{\mathsf{d}t} = \vams{C}{AO}\to + \vams{C}{AA}\ta + \mathsf{F}(t).\label{eq:linmodel2}
+\end{equation}
+In matrix form, the coupled system may be written as 
+\begin{equation}
+\boldsymbol{\nabla}\,\mathbf{T} = \mathbf{C}\,\mathbf{T} + \mathbf{F},\;\text{where,}\label{eq:linmodelvec}
+\end{equation}
+\begin{equation}
+\begin{aligned}[b]
+\boldsymbol{\nabla} = 
+\begin{bmatrix}
+    \mathsf{m}\displaystyle\frac{\mathsf{d}}{\mathsf{d}t} & \varnothing \\
+    \varnothing & \displaystyle\frac{\mathsf{d}}{\mathsf{d}t} 
+\end{bmatrix},\;\; 
+\mathbf{T} = 
+\begin{bmatrix}
+    \ta \\
+    \to 
+\end{bmatrix},
+\\
+\mathbf{C} = 
+\begin{bmatrix}
+    \mathrm{C}_\mathsf{OO} & \mathrm{C}_\mathsf{OA} \\
+    \mathrm{C}_\mathsf{AO} & \mathrm{C}_\mathsf{AA} 
+\end{bmatrix},\;\text{and}\;\;\;
+\mathbf{F} = 
+\begin{bmatrix}
+    \mathsf{F}(t) \\
+    \varnothing 
+\end{bmatrix}.
+\end{aligned}
+\label{eq:linmodelvals}
+\end{equation}
+where $\mathbf{T} = [\to, \ta]$ is the state vector of the temperature anomalies in the ocean and atmosphere respectively, matrix $\mathbf{C}$ encodes the exchange of information between the two sub-components, `$\mathsf{m}$' encodes the temporal scale separation between the two sub-components, $\boldsymbol{\nabla}$ is the \tit{translation operator} and $\mathsf{F}(t)$ is the stochastic forcing term. We choose the members of $\mathbf{C}$ and the value of scale separation `$\mathsf{m}$' such that the system is stable and in dynamic thermal equilibrium, e.g. $\vams{C}{OO} = -\,0.1$, $\vams{C}{OA} = 0.1$, $\vams{C}{AO} = 0.01$ and $\vams{C}{AA} = -\,0.1$, and ocean is relatively slow evolving ($\mathsf{m} > 1$). The stability of the system is ensured by negative eigenvalues of $\mathbf{C}$ $\leftrightarrow$ $|\mathbf{C}| > 0$ $\leftrightarrow$ $\mathbf{C}$ is positive definite, which also ensures that the Lyapunov exponents are negative. The presence forcing term ensures that the model is dynamically spun up to mimic realistic scenarios and its cross-section $\sigma_\mathsf{F}$ is chosen accordingly. In figure \ref{fig:linmod}, we show a sample time series for a single member simulation.
+\end{multicols}
+\begin{figure}[H]
+\centering\includegraphics[width=130mm]{{Fig1}.png}
+\caption{{\small 1-member simulation for $\mathsf{m} = 10$, $\sigma_\mathsf{F} = 0.1$, and $\vass{T}{O}^{t = 0} = \vass{T}{A}^{t = 0} = 1$.}}
+\label{fig:linmod}
+\end{figure}
+
+  
+\begin{multicols}{2}
+\bibliographystyle{plainnat}
+\bibliography{Bibliography}
+\end{multicols}
+\end{document}
