@@ -251,7 +251,7 @@ In standard large-scale data assimilation applications, a \tit{fully}/\tit{stron
 \begin{figure}[H]
 \centering\includegraphics[width=110mm]{{Fig6a}.png}\vspace{0.05in}
 \centering\includegraphics[width=110mm]{{Fig6b}.png}
-\caption{{\small \textsf{RMSE} statistics derived a 25--member {\enkf} simulation for $\mathsf{m} = 10$ showing the difference between the \textsf{WCDA} and the \textsf{SCDA} implementation. The model is spun up to stability during time $t \in [0, 100]$ whereas the {\rmse} statistics are calculated for time $t \in [550, 1100]$.}}
+\caption{{\small \textsf{RMSE} statistics derived a 25--member {\enkf} simulation for $\mathsf{m} = 10$ showing the difference between the \textsf{WCDA} and the \textsf{SCDA} implementation. The model is spun up to stability during time $t \in [0, 100]$ whereas the {\rmse} statistics are calculated for time $t \in [550, 1100]$. In this particular experiment, \textsf{WCDA} seems to perform better than \textsf{SCDA}; this is expected due to the presence of stochastic forcing term whose cross-section is of the same order as model and observation errors.}}
 \label{fig:6}
 \end{figure}
 \begin{multicols}{2}
@@ -261,13 +261,13 @@ In standard large-scale data assimilation applications, a \tit{fully}/\tit{stron
 \begin{figure}[H]
 \centering\includegraphics[width=75mm]{{Fig7a}.png}\vspace{0.05in}
 \centering\includegraphics[width=75mm]{{Fig7b}.png}
-\caption{{\small \textsf{RMSE} statistics derived a 25--member {\enkf} simulation as a function of  `$\mathsf{m}$' (\tit{vertical axes}) and $\tau_\mathsf{win}$ (\tit{horizontal axes}) showing the difference between the \textsf{WCDA} and the \textsf{LACC} implementation. Top panel shows the oceanic component while the bottom panel depicts the atmosphere.}}
+\caption{{\small \textsf{RMSE} statistics derived a 25--member {\enkf} simulation as a function of  `$\mathsf{m}$' (\tit{vertical axes}) and $\tau_\mathsf{win}$ (\tit{horizontal axes}) showing the difference between the \textsf{WCDA} and the \textsf{LACC} implementation. Top panel shows the oceanic component while the bottom panel depicts the atmosphere. Note that the \textsf{SCDA} case depicted in figures \ref{fig:5}--\ref{fig:6} corresponds to $\tau_\mathsf{win} = 1$ in this plot.}}
 \label{fig:7}
 \end{figure}
-{\noindent}In this paper, we will attempt to quantify the effects of choices of $\tau_\mathsf{win}$ on $\delta\boldsymbol{\sigma}_\mathsf{RMSE}$. It may be noted that the optimal choice of $\tau_\mathsf{win}$ must depend on `$\mathsf{m}$' since $|\taup|$ depends on `$\mathsf{m}$'. Consequently. the results of the {\lacc} implementation (compared with \textsf{WCDA}) are shown in figure \ref{fig:7} as a function of `$\mathsf{m}$' and $\tau_\mathsf{win}$. We note that larger scale separations require longer leading averaging windows in order to maximise the cross-component {\snr}. Moreover, choosing longer window lengths also decreases the frequency of the fully coupled cross-updates (since the cross-update is made only when preceding $\tau_\mathsf{win}$ observations in the atmosphere become available) which contributes toward decreasing the effect of stochastic noise due to the forcing term.
+{\noindent}In this paper, we will attempt to quantify the effects of choices of $\tau_\mathsf{win}$ on $\delta\boldsymbol{\sigma}_\mathsf{RMSE}$. It may be noted that the optimal choice of $\tau_\mathsf{win}$ must depend on `$\mathsf{m}$' since $|\taup|$ depends on `$\mathsf{m}$'. Consequently. the results of the {\lacc} implementation (compared with \textsf{WCDA}) are shown in figure \ref{fig:7} as a function of `$\mathsf{m}$' and $\tau_\mathsf{win}$. We note that larger scale separations require longer leading averaging windows in order to maximise the cross-component {\snr}. Moreover, choosing longer window lengths also decreases the frequency of the fully coupled cross-updates (since the cross-update is made only when preceding $\tau_\mathsf{win}$ observations in the atmosphere become available) which contributes toward decreasing the effect of stochastic noise due to the forcing term. Overall, it is easy to realise the benefit of using {\lacc} as it performs better than standard \textsf{WCDA} as shown in figures \ref{fig:7}--\ref{fig:8}.
 \subsubsection{Inflation and cross-localisation}
 \label{sec:inflation}
-{\noindent}The effects of stochastic noise due to the forcing term are reduced by the averaging operation yet they are not completely removed. This leaves further room for optimisation of the {\lacc} implementation; this is achieved by adaptively inflating the cross-update by multiplying the error covariance matrix $\mathbf{P}_t$ by a time-dependent factor $\alpha_t$. In our experiments, it turns out that deflation is required instead of inflation to counter the stochasticity in the atmospheric sub-component. The mean value $\bar{\alpha}_t$ over time of the multiplicative inflationary factor  $\alpha_t$ is found to be roughly 0.8. In figure \ref{fig:8}, we can see the smoothing effect of inflation on the results of our {\rmse} statistics. We also find that deflation helps in stricter convergence of {\lacc} implementation for the same reason.
+{\noindent}The effects of stochastic noise due to the forcing term are reduced by the averaging operation yet they are not completely removed. This leaves further room for optimisation of the {\lacc} implementation; this is achieved by adaptively inflating the cross-update by multiplying the error covariance matrix $\mathbf{P}_t$ by a time-dependent factor $\alpha_t$. In our experiments, it turns out that deflation is required instead of inflation to counter the stochasticity in the atmospheric sub-component. The mean value $\bar{\alpha}_t$ over time of the multiplicative inflationary factor  $\alpha_t$ is found to be roughly 0.8. In figure \ref{fig:8}, we can see the smoothing effect of inflation on the results of our {\rmse} statistics. Further, the marginal benefit of using {\lacc} over the standard \textsf{WCDA} also increases as a result. We also find that deflation helps in stricter convergence of {\lacc} implementation for the same reason.
 \end{multicols}
 \begin{figure}[H]
 \centering\includegraphics[width=75mm]{{Fig8a}.png}
@@ -276,6 +276,9 @@ In standard large-scale data assimilation applications, a \tit{fully}/\tit{stron
 \label{fig:8}
 \end{figure} 
 \begin{multicols}{2}
+\section{Extension of LACC to non-linear case}
+\newpage
+\label{sec:nonlinear}
 \bibliographystyle{plainnat}
 \bibliography{Bibliography}
 \end{multicols}
