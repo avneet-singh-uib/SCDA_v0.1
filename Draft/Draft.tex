@@ -109,7 +109,7 @@ Theoretically speaking, the complexity -- and accuracy -- of DA for a given syst
 
 \section{Linear coupled model form}
 \label{sec:linear}
-The linear toy model for the first case study is adopted from \citet{barsugli1998}, which is a simple one-dimensional, thermally coupled, purely temporal and stochastically forced atmosphere-ocean system of the form
+The linear toy model $\mlin$ for the first case study is adopted from \citet{barsugli1998}, which is a simple one-dimensional, thermally coupled, purely temporal and stochastically forced atmosphere-ocean system of the form
 \begin{equation}
 \mathsf{m}\frac{\vass{dT}{O}}{\mathsf{d}t} = \vams{C}{OO}\to + \vams{C}{OA}\ta,\label{eq:linmodel1}
 \end{equation}
@@ -146,16 +146,134 @@ In matrix form, the coupled system may be written as
 \end{aligned}
 \label{eq:linmodelvals}
 \end{equation}
-where $\mathbf{T} = [\to, \ta]$ is the state vector of the temperature anomalies in the ocean and atmosphere respectively, matrix $\mathbf{C}$ encodes the exchange of information between the two sub-components, `$\mathsf{m}$' encodes the temporal scale separation between the two sub-components, $\boldsymbol{\nabla}$ is the \tit{translation operator} and $\mathsf{F}(t)$ is the stochastic forcing term. We choose the members of $\mathbf{C}$ and the value of scale separation `$\mathsf{m}$' such that the system is stable and in dynamic thermal equilibrium, e.g. $\vams{C}{OO} = -\,0.1$, $\vams{C}{OA} = 0.1$, $\vams{C}{AO} = 0.01$ and $\vams{C}{AA} = -\,0.1$, and ocean is relatively slow evolving ($\mathsf{m} > 1$). The stability of the system is ensured by negative eigenvalues of $\mathbf{C}$ $\leftrightarrow$ $|\mathbf{C}| > 0$ $\leftrightarrow$ $\mathbf{C}$ is positive definite, which also ensures that the Lyapunov exponents are negative. The presence forcing term ensures that the model is dynamically spun up to mimic realistic scenarios and its cross-section $\sigma_\mathsf{F}$ is chosen accordingly. In figure \ref{fig:linmod}, we show a sample time series for a single member simulation.
+where $\mathbf{T} = [\to, \ta]$ is the state vector of the temperature anomalies in the ocean and atmosphere respectively, matrix $\mathbf{C}$ encodes the exchange of information between the two sub-components, `$\mathsf{m}$' encodes the temporal scale separation between the two sub-components, $\boldsymbol{\nabla}$ is the \tit{translation operator} and $\mathsf{F}(t)$ is the stochastic forcing term. We choose the members of $\mathbf{C}$ and the value of scale separation `$\mathsf{m}$' such that the system is stable and in dynamic thermal equilibrium, e.g. $\vams{C}{OO} = -\,0.1$, $\vams{C}{OA} = 0.1$, $\vams{C}{AO} = 0.01$ and $\vams{C}{AA} = -\,0.1$, and ocean is relatively slow evolving ($\mathsf{m} > 1$). The stability of the system is ensured by negative eigenvalues of $\mathbf{C}$ $\leftrightarrow$ $|\mathbf{C}| > 0$ $\leftrightarrow$ $\mathbf{C}$ is positive definite, which also ensures that the Lyapunov exponents are negative. The presence of the forcing term ensures that the model is dynamically spun up to mimic realistic scenarios and its cross-section $\sigma_\mathsf{F}$ is chosen accordingly. In figure \ref{fig:1}, we show a sample time series for a single member simulation. 
 \end{multicols}
 \begin{figure}[H]
 \centering\includegraphics[width=130mm]{{Fig1}.png}
-\caption{{\small 1-member simulation for $\mathsf{m} = 10$, $\sigma_\mathsf{F} = 0.1$, and $\vass{T}{O}^{t = 0} = \vass{T}{A}^{t = 0} = 1$.}}
-\label{fig:linmod}
+\caption{{\small 1-member simulation for $\mathsf{m} = 10$, $\sigma_\mathsf{F} = 0.1$, and $\vass{T}{O}^{t = 0} = \vass{T}{A}^{t = 0} = 1.0$.}}
+\label{fig:1}
 \end{figure}
-
-  
+{\noindent}
 \begin{multicols}{2}
+{\noindent}One may easily calculate the frequency spectrum of the solutions ($t \rightarrow f$) in the Fourier space analytically in this case \eqref{eq:fourier}, to quantify the relative slowness of the ocean with respect to the atmosphere; this is shown in figure \ref{fig:2} -- the gap between the Fourier transforms $\hat{\mathsf{T}}_\mathsf{O}$ and $\hat{\mathsf{T}}_\mathsf{A}$ quantifies the slowness of the ocean relative to the atmosphere.
+\begin{equation}
+\begin{aligned}[b]
+\hat{\mathsf{T}}_\mathsf{O}(f)=\sigma^2_\mathsf{F}\frac{\mathrm{C}_\mathsf{OA}}{(2\pi i f - \mathrm{C}_\mathsf{AA})(2\pi i\mathsf{m} f - \mathrm{C}_\mathsf{OO}) - \mathrm{C}_\mathsf{OA}\mathrm{C}_\mathsf{AO}}
+\\
+\hat{\mathsf{T}}_\mathsf{A}(f)=\sigma^2_\mathsf{F}\frac{2\pi i\mathsf{m} f - \mathrm{C}_\mathsf{OO}}{(2\pi i f - \mathrm{C}_\mathsf{AA})(2\pi i\mathsf{m} f - \mathrm{C}_\mathsf{OO}) - \mathrm{C}_\mathsf{OA}\mathrm{C}_\mathsf{AO}}
+\end{aligned}
+\label{eq:fourier}
+\end{equation}
+\begin{figure}[H]
+\centering\includegraphics[width=75mm]{{Fig2}.png}
+\caption{{\small Fourier transforms $\hat{\mathsf{T}}_\mathsf{O}$ and $\hat{\mathsf{T}}_\mathsf{A}$ for $\mathsf{m} = 10$, $\sigma_\mathsf{F} = 0.1$.}}
+\label{fig:2}
+\end{figure}
+{\noindent}Lastly, this temporal scale separation (i.e. slowness of the ocean) leads to a net lagging effect on the ocean which is quantifiable by calculating the auto- and cross-correlation functions \eqref{eq:corr}.
+\begin{equation}
+\langle\mathsf{T_X,T_Y}\rangle \equiv \langle\mathsf{T_X}(t),\mathsf{T_Y}(t + \tau)\rangle = \int_{-\infty}^{+\infty} \mathsf{T_X}(t)\,\mathsf{T_Y}(t + \tau)\,\mathrm{d}t.
+\label{eq:corr}
+\end{equation}
+where $\tau$ is the \tit{lag time}. In figure \ref{fig:3}, we show the auto- and cross-correlation functions plotted for our linear model where the slowness of ocean is again reflected in shallower decline of the oceanic auto-correlation function $\langle\mathsf{T_O,T_O}\rangle$ relative to the atmospheric auto-correlation function $\langle\mathsf{T_A,T_A}\rangle$. Notably, the cross-correlation function $\langle\mathsf{T_O,T_A}\rangle$ peaks at negative value of $\tau$ (denoted by $\taup$) depicting that the ocean \tit{lags} the atmosphere, or that the atmosphere \tit{leads} the ocean. We intend to use this lag to our advantage in the data assimilation procedure. The statistics of $|\taup|$ as a function of scale separation `$\mathsf{m}$' are shown in figure \ref{fig:4}; we find that the modes of the distributions (i.e. values of $|\taup|$) increase with increasing scale separation (i.e. `$\mathsf{m}$') as expected. Moreover, while $|\taup|$ primarily depends on `$\mathsf{m}$' and $|\mathbf{C}|$, the higher moments (skewness, kurtosis, etc) depend on $\mathbf{C} - \mathsf{diag}(\mathbf{C})$. 
+\begin{figure}[H]
+\centering\includegraphics[width=75mm]{{Fig3}.png}
+\caption{{\small Cross- and auto-correlation functions $\langle\mathsf{T_X,T_Y}\rangle$ for a 1-member simulation for $\mathsf{m} = 10$, $\sigma_\mathsf{F} = 0.1$, and $\vass{T}{O}^{t = 0} = \vass{T}{A}^{t = 0} = 1.0$. Note that the auto-correlation functions naturally peak at $\tau = 0$ while the cross-correlation peaks at $\tau < 0$ depicting the \tit{lagging effect} on the ocean.}}
+\label{fig:3}
+\end{figure}
+\end{multicols}
+\begin{figure}[H]
+\centering
+\includegraphics[width=32mm]{{Fig4a}.png}
+\includegraphics[width=32mm]{{Fig4b}.png}
+\includegraphics[width=32mm]{{Fig4c}.png}
+\includegraphics[width=32mm]{{Fig4d}.png}
+\caption{{\small Normalised probability densities (\tit{horizontal axes}) of peak lag times $|\taup|$ (\tit{vertical axes}) as a function of scale separation `$\mathsf{m}$'; $\sigma_\mathsf{F} = 0.1$, and $\vass{T}{O}^{t = 0} = \vass{T}{A}^{t = 0} = 1.0$. The solid lines denote normal distribution fits while the dashed lines denote skew-normal fits. Note the shift in the mode, the skewness and the spread of the distributions as a function of increasing values of $\mathsf{m}\in \{2,\,10,\,30,\,100\}$.}}
+\label{fig:4}
+\end{figure}
+\begin{multicols}{2}
+\subsection{Coupled data assimilation}
+\label{sec:DAlinear}
+In order to study and optimise data assimilation using this coupled linear model $\mlin$, we utilise the existing framework of sequential \tit{Ensemble Kalman Filter} (\tit{abbrev.} {\enkf}); it is a well known fact that in the linear case, {\enkf} is the most optimal choice for data assimilation considering the analytical constraints as it equates to a unique and global minimisation of the standard variational approach \citep{carrassi2018}. If the model error covariance matrix is denoted by $\mathbf{P}$, the observational error covariance matrix by $\mathbf{R}$, then the Kalman Gain $\mathbf{K}$ at any time $t$ is written as
+\begin{equation}
+\mathbf{K}_t = \mathbf{P}_t\,[\mathbf{P}_t + \mathbf{R}_t]^{-1}.
+\label{eq:kgain1}
+\end{equation}
+The resulting analysed and forecast state at any time $t$ are further written as
+\begin{equation}
+\mathbf{T}_t^\mathsf{ana} = \mathbf{T}_t^\mathsf{for} + \mathbf{K}_t\,[\mathbf{T}_t^\mathsf{obs} - \mathbf{T}_t^\mathsf{for}],
+\label{eq:ana}
+\end{equation}
+where $\mathbf{T}_t^\mathsf{obs}$ and $\mathbf{T}_t^\mathsf{for}$ are the observation and forecast vectors. The analysed model error covariance matrix evolves as $\mathbf{P}_t^\mathsf{ana} = \mathbf{P}_t^\mathsf{for}\,[\mathbf{I} - \mathbf{K}_t]$ although this calculation is not required explicitly by the ensemble version of the Kalman filter. The analysed state $\mathbf{T}_t^\mathsf{ana}$ is finally translated in time from $t$ to $t + 1$ by the translation operation, $\mathbf{T}_{t+1}^\mathsf{for} = \mlin \cdot \mathbf{T}_{t}^\mathsf{ana}$, by numerically integrating the coupled stochastic differential equations\footnote{The expression \eqref{eq:linmodelvec} is of the \tit{Ito} form and its numerical integration is performed using \textsf{sdeint}.\textsf{itoint} algorithm available in Python's \textsf{SciPy} library. More specifically, \textsf{sdeint}.\textsf{itoint} uses the Euler-Maruyama algorithm to integrate the Ito equation.}  \eqref{eq:linmodel1}--\eqref{eq:linmodel2}. In our experiments, we reasonably assume the observation errors in the ocean and the atmosphere to be mutually uncorrelated and constant in time, i.e.
+\begin{equation}
+\mathbf{R}_t = 
+\begin{bmatrix}
+    \sigma_{\mathsf{A},\,\mathsf{obs}} & \varnothing \\
+    \varnothing & \sigma_{\mathsf{O},\,\mathsf{obs}}
+\end{bmatrix}_{\forall t},
+\label{eq:R}
+\end{equation}
+while the model error covariance matrix $\mathbf{P}_t$ is explicitly written as 
+\begin{equation}
+\mathbf{P}_t = 
+\begin{bmatrix}
+    \inner{A}{A} & \inner{A}{O} \\
+    \inner{O}{A} & \inner{O}{O}
+\end{bmatrix}_t.
+\label{eq:P}
+\end{equation}
+The observation vectors for the ocean and the atmosphere in our experiments are generated by perturbing a 1-member simulation of the model $\mlin$ with $\sigma_{\mathsf{O},\,\mathsf{obs}}$ and $\sigma_{\mathsf{A},\,\mathsf{obs}}$ respectively. Lastly, the Kalman Gain matrix $\mathbf{K}_t$ is explicitly written as 
+\end{multicols}
+\begin{equation}
+\mathbf{K}_t = 
+\frac{1}{\mathrm{D}_t}\,\begin{bmatrix}
+    \inner{A}{A}[\inner{O}{O} + \sigma^2_{\mathsf{O},\,\mathsf{obs}}] - \inner{O}{A}^2 & \sigma^2_{\mathsf{O},\,\mathsf{obs}}\inner{O}{A} \\
+    \sigma^2_{\mathsf{A},\,\mathsf{obs}}\inner{A}{O} & \inner{O}{O}[\inner{A}{A} + \sigma^2_{\mathsf{A},\,\mathsf{obs}}] - \inner{A}{O}^2
+\end{bmatrix}_t,
+\label{eq:kgain2}
+\end{equation}
+\begin{multicols}{2}
+{\noindent}
+where $\mathrm{D}_t = [\inner{A}{A} + \sigma^2_{\mathsf{A},\,\mathsf{obs}}]\,[\inner{O}{O} + \sigma^2_{\mathsf{O},\,\mathsf{obs}}] - \inner{O}{A}^2$, and $\vec{\;\;}$ represents the ensemble vector of length $\mathsf{N}_e$, the time-varying spread of the ensembles is denoted by $\sigma_{\mathsf{A/O},\,\mathsf{for/ana}}$, and the $\langle\cdot|\cdot\rangle$ operation represents inner product. Naturally, $\inner{O}{A} = \inner{A}{O}$ and that $\inner{X}{Y}$ is generally equivalent to the discrete formulation of the zero-lag correlation function $\langle\mathsf{T_X,T_Y}\rangle_{\tau = 0}$ in \eqref{eq:corr}. This completes the required ingredients for {\enkf}. In table \ref{table:table1}, we list the values of the parameters defined above. 
+\input{Table1.tex}
+{\noindent}
+We quantify the performance of DA by calculating the {\rmse} vector defined by 
+\begin{equation}
+\boldsymbol{\sigma}_\mathsf{RMSE} = \sqrt{\sum_{\forall t}|\mathbf{T}_{t}^\mathsf{ana} - \mathbf{T}_{t}^\mathsf{for}|^2}.
+\label{eq:rmse}
+\end{equation}
+In standard large-scale data assimilation applications, a \tit{fully}/\tit{strongly} coupled approach (\tit{abbrev.} \textsf{SCDA}) as outlined above is not yet adopted although its application has been encouraged in recent times \citep{penny2017}. The current adoption of \tit{weakly} coupled implementation (\tit{abbrev.} \textsf{WCDA}) simply involves setting the off-diagonal terms in $\mathbf{P}_t$ to zero, thereby explicitly ignoring the model error covariances in the analysis step and only allowing the coupled system to share information during the forecast step; this approach is prone to instabilities. In order to show the difference between the two, we run \textsf{WCDA}  simulations in parallel with \textsf{SCDA} in all our experiments and calculate $\delta\boldsymbol{\sigma}_\mathsf{RMSE} = \boldsymbol{\sigma}^\mathsf{SCDA}_\mathsf{RMSE} - \boldsymbol{\sigma}^\mathsf{WCDA}_\mathsf{RMSE}$. In figure \ref{fig:5}, we show a snapshot of a random ensemble member's simulation while figure \ref{fig:6} shows the corresponding \textsf{RMSE} statistics derived from a 25--member {\enkf} simulation by fixing $\mathsf{m} = 10$.  
+\end{multicols}
+\begin{figure}[H]
+\centering\includegraphics[width=130mm]{{Fig5}.png}
+\caption{{\small One random member {\enkf} simulation for $\mathsf{m} = 10$ showing the differences between the  \textsf{WCDA} and the \textsf{SCDA} implementation. Top panel (\tit{red}) shows  the atmospheric component while the bottom panel depicts the ocean (\tit{blue}).}}
+\label{fig:5}
+\end{figure}
+\begin{figure}[H]
+\centering\includegraphics[width=110mm]{{Fig6a}.png}\vspace{0.05in}
+\centering\includegraphics[width=110mm]{{Fig6b}.png}
+\caption{{\small \textsf{RMSE} statistics derived a 25--member {\enkf} simulation for $\mathsf{m} = 10$ showing the difference between the \textsf{WCDA} and the \textsf{SCDA} implementation. The model is spun up to stability during time $t \in [0, 100]$ whereas the {\rmse} statistics are calculated for time $t \in [550, 1100]$.}}
+\label{fig:6}
+\end{figure}
+\begin{multicols}{2}
+\subsection{Leading averaged cross-covariance}
+\label{sec:LACC}
+{\noindent}In order to maximise the effects of cross-covariance in coupled data assimilation, \citet{lu2015a, lu2015b} suggested that it is advantageous to use leading forecasts and observations in the fast sub-component, i.e. the atmosphere, while updating the slower sub-component, i.e. the ocean, instead of assimilating the instantaneously available atmospheric observation at any time $t$. This suggestion simply follows from figure \ref{fig:3} where we found that the cross-correlation function is maximum when atmosphere leads the ocean, i.e. when $\tau < 0$. This essentially means that the information shared between the oceanic and the atmospheric sub-components in the cross-update may be optimised further by choosing $\tau < 0$, thus maximising the signal-to-noise ratio ({\snr}) in the cross-update. In order to further minimise the effects of noise arising due to stochastic forcing, \citet{lu2015a} used an \tit{average} over some $\tau_\mathsf{win}$ number of leading observations in the atmosphere to update the ocean; they termed this implementation as {\lacc} \citep{lu2015a, lu2015b}. Note that no modification was necessary in reverse, i.e. ocean $\rightarrow$ atmosphere, since the faster sub-component doesn't benefit from any such modification directly. 
+\begin{figure}[H]
+\centering\includegraphics[width=75mm]{{Fig7a}.png}\vspace{0.05in}
+\centering\includegraphics[width=75mm]{{Fig7b}.png}
+\caption{{\small \textsf{RMSE} statistics derived a 25--member {\enkf} simulation as a function of  `$\mathsf{m}$' (\tit{vertical axes}) and $\tau_\mathsf{win}$ (\tit{horizontal axes}) showing the difference between the \textsf{WCDA} and the \textsf{LACC} implementation.}}
+\label{fig:7}
+\end{figure}
+{\noindent}In this paper, we will attempt to quantify the effects of choices of $\tau_\mathsf{win}$ on $\delta\boldsymbol{\sigma}_\mathsf{RMSE}$. It may be noted that the optimal choice of $\tau_\mathsf{win}$ must depend on `$\mathsf{m}$' since $|\taup|$ depends on `$\mathsf{m}$'. Consequently. the results of the {\lacc} implementation (compared with \textsf{WCDA}) are shown in figure \ref{fig:7} as a function of `$\mathsf{m}$' and $\tau_\mathsf{win}$. We note that larger scale separations require longer leading averaging windows in order to maximise the cross-component {\snr}. Moreover, choosing longer window lengths also decreases the frequency of the fully coupled cross-updates (since the cross-update is made only when preceding $\tau_\mathsf{win}$ observations in the atmosphere become available) which contributes toward decreasing the effect of stochastic noise due to the forcing term.
+\subsubsection{Inflation and cross-localisation}
+\label{sec:inflation}
+The effects of stochastic noise due to the forcing term are reduced by the averaging operation yet they are not completely removed. This leaves further room for optimisation of the {\lacc} implementation; this is achieved by adaptively inflating the cross-update by multiplying the error covariance matrix $\mathbf{P}_t$ by a time-dependent factor $\alpha_t$. In our experiments, it turns out that deflation is required instead of inflation to counter the stochasticity in the atmospheric sub-component. The mean value $\bar{\alpha}_t$ over time of the multiplicative inflationary factor  $\alpha_t$ is found to be roughly 0.8. In figure \ref{fig:8}, we can see the smoothing effect of inflation on the results of our {\rmse} statistics. We also find that deflation helps in stricter convergence of {\lacc} implementation for the same reason.
+\begin{figure}[H]
+\centering\includegraphics[width=75mm]{{Fig8a}.png}\vspace{0.05in}
+\centering\includegraphics[width=75mm]{{Fig8b}.png}
+\caption{{\small \textsf{RMSE} statistics including adaptive inflation. The mean value $\bar{\alpha}_t$ of the multiplicative adaptive inflationary factor $\alpha_t$ is roughly 0.8 in our experiment.}}
+\label{fig:8}
+\end{figure} 
 \bibliographystyle{plainnat}
 \bibliography{Bibliography}
 \end{multicols}

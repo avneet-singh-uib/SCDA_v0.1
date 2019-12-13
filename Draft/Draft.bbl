@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -29,13 +29,29 @@ A~Hannart~\tit{et al}.
   \href{https://doi.org/10.1007/s10584-016-1595-3}{\ExternalLink}},
   136\penalty0 (2):\penalty0 155--174, 2016.
 
-\bibitem[Lu~\tit{et al}(2015)]{lu2015a}
+\bibitem[Lu~\tit{et al}(2015{\natexlab{a}})]{lu2015a}
 F~Lu~\tit{et al}.
 \newblock {\tit{Strongly Coupled Data Assimilation Using Leading Averaged
   Coupled Covariance (LACC). Part I: Simple Model Study}}.
 \newblock \emph{\textup{\textbf{\tit{Mon. Wea. Rev.}}}
   \href{https://doi.org/10.1175/MWR-D-14-00322.1}{\ExternalLink}}, 143\penalty0
-  (--):\penalty0 3823--3837, 2015.
+  (--):\penalty0 3823--3837, 2015{\natexlab{a}}.
+
+\bibitem[Lu~\tit{et al}(2015{\natexlab{b}})]{lu2015b}
+F~Lu~\tit{et al}.
+\newblock {\tit{Strongly Coupled Data Assimilation Using Leading Averaged
+  Coupled Covariance (LACC). Part II: CGCM Experiments}}.
+\newblock \emph{\textup{\textbf{\tit{Mon. Wea. Rev.}}}
+  \href{https://doi.org/10.1175/MWR-D-15-0088.1}{\ExternalLink}}, 143\penalty0
+  (--):\penalty0 4645--4659, 2015{\natexlab{b}}.
+
+\bibitem[Penny and Hamill(2017)]{penny2017}
+S~G Penny and T~M Hamill.
+\newblock {\tit{Strongly Coupled Data Assimilation for Integrated Earth System
+  Analysis and Prediction}}.
+\newblock \emph{\textup{\textbf{\tit{Bull. Amer. Meteor. Soc.}}}
+  \href{https://doi.org/10.1175/BAMS-D-17-0036.1}{\ExternalLink}}, 98\penalty0
+  (--):\penalty0 ES169–ES172, 2017.
 
 \bibitem[Penny~\tit{et al}(2019)]{penny2019}
 S~G Penny~\tit{et al}.

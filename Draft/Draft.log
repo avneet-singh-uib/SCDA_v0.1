@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.18)  12 DEC 2019 02:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.18)  13 DEC 2019 02:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1421,17 +1421,17 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 106.
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 114.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 112.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 114.
+(Font)              scaled to size 8.99994pt on input line 112.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.56995pt on input line 114.
+(Font)              scaled to size 6.56995pt on input line 112.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 4.94997pt on input line 114.
+(Font)              scaled to size 4.94997pt on input line 112.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.0pt on input line 121.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
@@ -1440,16 +1440,10 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 5.5pt on input line 121.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.5pt on input line 121.
-
-
-Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 1 might be wrong on input line 150.
-
-
-[1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-<Fig1.png, id=52, 554.85292pt x 124.84642pt>
+<Fig1.png, id=64, 554.85292pt x 124.84642pt>
 File: Fig1.png Graphic file (type png)
 <use Fig1.png>
 Package pdftex.def Info: Fig1.png  used on input line 152.
@@ -1458,55 +1452,148 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 9.0pt on input line 153.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 153.
+<Fig2.png, id=68, 266.49562pt x 119.51651pt>
+File: Fig2.png Graphic file (type png)
+<use Fig2.png>
+Package pdftex.def Info: Fig2.png  used on input line 168.
+(pdftex.def)             Requested size: 213.39566pt x 95.7045pt.
+<Fig3.png, id=72, 232.79974pt x 125.11743pt>
+File: Fig3.png Graphic file (type png)
+<use Fig3.png>
+Package pdftex.def Info: Fig3.png  used on input line 179.
+(pdftex.def)             Requested size: 213.39566pt x 114.6894pt.
+<Fig4a.png, id=73, 140.83617pt x 139.02942pt>
+File: Fig4a.png Graphic file (type png)
+<use Fig4a.png>
+Package pdftex.def Info: Fig4a.png  used on input line 186.
+(pdftex.def)             Requested size: 91.04881pt x 89.88435pt.
+<Fig4b.png, id=74, 140.9265pt x 135.95793pt>
+File: Fig4b.png Graphic file (type png)
+<use Fig4b.png>
+Package pdftex.def Info: Fig4b.png  used on input line 187.
+(pdftex.def)             Requested size: 91.04881pt x 87.84052pt.
+<Fig4c.png, id=75, 141.01683pt x 135.95793pt>
+File: Fig4c.png Graphic file (type png)
+<use Fig4c.png>
+Package pdftex.def Info: Fig4c.png  used on input line 188.
+(pdftex.def)             Requested size: 91.04881pt x 87.78242pt.
+<Fig4d.png, id=76, 141.01683pt x 135.95793pt>
+File: Fig4d.png Graphic file (type png)
+<use Fig4d.png>
+Package pdftex.def Info: Fig4d.png  used on input line 189.
+(pdftex.def)             Requested size: 91.04881pt x 87.78242pt.
+ [2 <./Fig1.png> <./Fig2.png> <./Fig3.png>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 194.
+LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 2
+06.
 
-(./Draft.bbl
+(/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/t1ntxsups.fd
+File: t1ntxsups.fd 2015/01/17 v1.0
+)
+LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
+(Font)              scaled to size 10.0pt on input line 206.
+LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
+(Font)              scaled to size 8.0pt on input line 206.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 206.
+ (./Table1.tex)
+
+Package multicol Warning: I moved some lines to the next page.
+(multicol)                Footnotes on page 3 might be wrong on input line 243.
+
+
+[3 <./Fig4a.png> <./Fig4b.png> <./Fig4c.png> <./Fig4d.png>]
+<Fig5.png, id=121, 653.68214pt x 245.98901pt>
+File: Fig5.png Graphic file (type png)
+<use Fig5.png>
+Package pdftex.def Info: Fig5.png  used on input line 247.
+(pdftex.def)             Requested size: 369.88582pt x 139.19423pt.
+<Fig6a.png, id=122, 594.87244pt x 112.65086pt>
+File: Fig6a.png Graphic file (type png)
+<use Fig6a.png>
+Package pdftex.def Info: Fig6a.png  used on input line 252.
+(pdftex.def)             Requested size: 312.9803pt x 59.2715pt.
+<Fig6b.png, id=123, 594.96277pt x 126.9242pt>
+File: Fig6b.png Graphic file (type png)
+<use Fig6b.png>
+Package pdftex.def Info: Fig6b.png  used on input line 253.
+(pdftex.def)             Requested size: 312.9803pt x 66.76982pt.
+<Fig7a.png, id=130, 414.37811pt x 197.2971pt>
+File: Fig7a.png Graphic file (type png)
+<use Fig7a.png>
+Package pdftex.def Info: Fig7a.png  used on input line 262.
+(pdftex.def)             Requested size: 213.39566pt x 101.60161pt.
+<Fig7b.png, id=131, 408.14482pt x 207.59558pt>
+File: Fig7b.png Graphic file (type png)
+<use Fig7b.png>
+Package pdftex.def Info: Fig7b.png  used on input line 263.
+(pdftex.def)             Requested size: 213.39566pt x 108.53949pt.
+ [4 <./Fig5.png> <./Fig6a.png> <./Fig6b.png>]
+<Fig8a.png, id=148, 413.92642pt x 197.2971pt>
+File: Fig8a.png Graphic file (type png)
+<use Fig8a.png>
+Package pdftex.def Info: Fig8a.png  used on input line 272.
+(pdftex.def)             Requested size: 213.39566pt x 101.713pt.
+<Fig8b.png, id=149, 402.09221pt x 207.59558pt>
+File: Fig8b.png Graphic file (type png)
+<use Fig8b.png>
+Package pdftex.def Info: Fig8b.png  used on input line 273.
+(pdftex.def)             Requested size: 213.39566pt x 110.17717pt.
+ (./Draft.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.0pt on input line 13.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 13.
-) [2 <./Fig1.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+)
+Overfull \vbox (25.19695pt too high) has occurred while \output is active []
+
+
+[5 <./Fig7a.png> <./Fig7b.png> <./Fig8a.png> <./Fig8b.png>] [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
  (./Draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `Draft.out' has not changed.
-(rerunfilecheck)             Checksum: C1A982B999D7CFEABC694E3211C7E32D;107.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 77E3C5CA0EA26A871EF611ED70A4C0CD;354.
  ) 
 Here is how much of TeX's memory you used:
- 22511 strings out of 492649
- 398268 string characters out of 6129622
- 474084 words of memory out of 5000000
- 25803 multiletter control sequences out of 15000+600000
- 116545 words of font info for 193 fonts, out of 8000000 for 9000
+ 22685 strings out of 492649
+ 400590 string characters out of 6129622
+ 496771 words of memory out of 5000000
+ 25926 multiletter control sequences out of 15000+600000
+ 127575 words of font info for 204 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,14n,94p,1736b,769s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,14n,94p,1736b,825s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texliv
-e/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2018/te
-xmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-di
-st/fonts/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/tex-gyre/qtmb.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
-lic/newtx/rntxmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/tx
-fonts/rtxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/
-rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txbsys.pf
-b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2018/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Draft.pdf (2 pages, 353540 bytes).
+exlive/2018/texmf-dist/fonts/enc/dvips/base/ec.enc}{/usr/local/texlive/2018/tex
+mf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2018/texmf-di
+st/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2018/texmf-dist/fonts/
+enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/
+public/esint-type1/esint10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
+public/newtx/ntxsups-Regular.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/public/newtx/ntxsyralt.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
+blic/tex-gyre/qhvr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/t
+ex-gyre/qtmb.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/tex-gyr
+e/qtmr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxmi7
+.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/rtxbmi-rev.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/newtx/txbsys.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/urw/palatino/uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/p
+alatino/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on Draft.pdf (6 pages, 6022243 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 34 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 251 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
