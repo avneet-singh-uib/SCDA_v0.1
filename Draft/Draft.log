@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.18)  13 DEC 2019 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.18)  15 DEC 2019 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1440,134 +1440,153 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 5.5pt on input line 121.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.5pt on input line 121.
+<Fig1.png, id=37, 266.04393pt x 124.75609pt>
+File: Fig1.png Graphic file (type png)
+<use Fig1.png>
+Package pdftex.def Info: Fig1.png  used on input line 151.
+(pdftex.def)             Requested size: 221.93149pt x 104.07481pt.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 9.0pt on input line 152.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 152.
  [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-<Fig1.png, id=68, 554.85292pt x 124.84642pt>
-File: Fig1.png Graphic file (type png)
-<use Fig1.png>
-Package pdftex.def Info: Fig1.png  used on input line 152.
-(pdftex.def)             Requested size: 369.88582pt x 83.22755pt.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 153.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 153.
-<Fig2.png, id=72, 266.49562pt x 119.51651pt>
+<Fig2.png, id=68, 266.49562pt x 119.51651pt>
 File: Fig2.png Graphic file (type png)
 <use Fig2.png>
-Package pdftex.def Info: Fig2.png  used on input line 168.
-(pdftex.def)             Requested size: 213.39566pt x 95.7045pt.
-<Fig3.png, id=76, 232.79974pt x 125.11743pt>
+Package pdftex.def Info: Fig2.png  used on input line 165.
+(pdftex.def)             Requested size: 221.93149pt x 99.53421pt.
+<Fig3.png, id=72, 232.79974pt x 125.11743pt>
 File: Fig3.png Graphic file (type png)
 <use Fig3.png>
-Package pdftex.def Info: Fig3.png  used on input line 179.
-(pdftex.def)             Requested size: 213.39566pt x 114.6894pt.
-<Fig4a.png, id=77, 140.83617pt x 139.02942pt>
+Package pdftex.def Info: Fig3.png  used on input line 176.
+(pdftex.def)             Requested size: 221.93149pt x 119.27705pt.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 180.
+ [2 <./Fig1.png> <./Fig2.png> <./Fig3.png>]
+<Fig4a.png, id=92, 140.83617pt x 139.02942pt>
 File: Fig4a.png Graphic file (type png)
 <use Fig4a.png>
-Package pdftex.def Info: Fig4a.png  used on input line 186.
+Package pdftex.def Info: Fig4a.png  used on input line 195.
 (pdftex.def)             Requested size: 91.04881pt x 89.88435pt.
-<Fig4b.png, id=78, 140.9265pt x 135.95793pt>
+<Fig4b.png, id=93, 140.9265pt x 135.95793pt>
 File: Fig4b.png Graphic file (type png)
 <use Fig4b.png>
-Package pdftex.def Info: Fig4b.png  used on input line 187.
+Package pdftex.def Info: Fig4b.png  used on input line 196.
 (pdftex.def)             Requested size: 91.04881pt x 87.84052pt.
-<Fig4c.png, id=79, 141.01683pt x 135.95793pt>
+<Fig4c.png, id=94, 141.01683pt x 135.95793pt>
 File: Fig4c.png Graphic file (type png)
 <use Fig4c.png>
-Package pdftex.def Info: Fig4c.png  used on input line 188.
+Package pdftex.def Info: Fig4c.png  used on input line 197.
 (pdftex.def)             Requested size: 91.04881pt x 87.78242pt.
-<Fig4d.png, id=80, 141.01683pt x 135.95793pt>
+<Fig4d.png, id=95, 141.01683pt x 135.95793pt>
 File: Fig4d.png Graphic file (type png)
 <use Fig4d.png>
-Package pdftex.def Info: Fig4d.png  used on input line 189.
+Package pdftex.def Info: Fig4d.png  used on input line 198.
 (pdftex.def)             Requested size: 91.04881pt x 87.78242pt.
- [2 <./Fig1.png> <./Fig2.png> <./Fig3.png>]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 194.
 LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 2
-06.
+03.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/newtx/t1ntxsups.fd
 File: t1ntxsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 10.0pt on input line 206.
+(Font)              scaled to size 10.0pt on input line 203.
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 8.0pt on input line 206.
+(Font)              scaled to size 8.0pt on input line 203.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 206.
+(Font)              scaled to size 7.19995pt on input line 203.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 203.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.2pt on input line 203.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 5.57996pt on input line 203.
  (./Table1.tex)
-
-Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 3 might be wrong on input line 243.
-
-
-[3 <./Fig4a.png> <./Fig4b.png> <./Fig4c.png> <./Fig4d.png>]
-<Fig5.png, id=125, 653.68214pt x 245.98901pt>
+<Fig5.png, id=106, 364.78282pt x 199.91689pt>
 File: Fig5.png Graphic file (type png)
 <use Fig5.png>
-Package pdftex.def Info: Fig5.png  used on input line 247.
-(pdftex.def)             Requested size: 369.88582pt x 139.19423pt.
-<Fig6a.png, id=126, 594.87244pt x 112.65086pt>
+Package pdftex.def Info: Fig5.png  used on input line 244.
+(pdftex.def)             Requested size: 221.93149pt x 121.62576pt.
+ [3 <./Fig4a.png> <./Fig4b.png> <./Fig4c.png> <./Fig4d.png>]
+<Fig6a.png, id=127, 388.27057pt x 177.15184pt>
 File: Fig6a.png Graphic file (type png)
 <use Fig6a.png>
-Package pdftex.def Info: Fig6a.png  used on input line 252.
-(pdftex.def)             Requested size: 312.9803pt x 59.2715pt.
-<Fig6b.png, id=127, 594.96277pt x 126.9242pt>
+Package pdftex.def Info: Fig6a.png  used on input line 249.
+(pdftex.def)             Requested size: 221.93149pt x 101.25871pt.
+<Fig6b.png, id=128, 388.36092pt x 188.6247pt>
 File: Fig6b.png Graphic file (type png)
 <use Fig6b.png>
-Package pdftex.def Info: Fig6b.png  used on input line 253.
-(pdftex.def)             Requested size: 312.9803pt x 66.76982pt.
-<Fig7a.png, id=134, 414.37811pt x 197.2971pt>
+Package pdftex.def Info: Fig6b.png  used on input line 250.
+(pdftex.def)             Requested size: 221.93149pt x 107.7906pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 254.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 254.
+<Fig7a.png, id=130, 311.39336pt x 106.14656pt>
 File: Fig7a.png Graphic file (type png)
 <use Fig7a.png>
-Package pdftex.def Info: Fig7a.png  used on input line 262.
-(pdftex.def)             Requested size: 213.39566pt x 101.60161pt.
-<Fig7b.png, id=135, 408.14482pt x 207.59558pt>
+Package pdftex.def Info: Fig7a.png  used on input line 257.
+(pdftex.def)             Requested size: 221.93149pt x 75.65126pt.
+<Fig7b.png, id=131, 311.21269pt x 119.06482pt>
 File: Fig7b.png Graphic file (type png)
 <use Fig7b.png>
-Package pdftex.def Info: Fig7b.png  used on input line 263.
-(pdftex.def)             Requested size: 213.39566pt x 108.53949pt.
- [4 <./Fig5.png> <./Fig6a.png> <./Fig6b.png>]
-<Fig8a.png, id=158, 413.92642pt x 207.59558pt>
+Package pdftex.def Info: Fig7b.png  used on input line 258.
+(pdftex.def)             Requested size: 221.93149pt x 84.90904pt.
+ [4 <./Fig5.png> <./Fig6a.png> <./Fig6b.png> <./Fig7a.png> <./Fig7b.png>]
+<Fig8a.png, id=159, 378.42378pt x 113.91559pt>
 File: Fig8a.png Graphic file (type png)
 <use Fig8a.png>
-Package pdftex.def Info: Fig8a.png  used on input line 273.
-(pdftex.def)             Requested size: 213.39566pt x 107.02219pt.
-<Fig8b.png, id=159, 402.09221pt x 207.59558pt>
+Package pdftex.def Info: Fig8a.png  used on input line 269.
+(pdftex.def)             Requested size: 221.93149pt x 66.80634pt.
+<Fig8b.png, id=160, 377.2494pt x 138.0357pt>
 File: Fig8b.png Graphic file (type png)
 <use Fig8b.png>
-Package pdftex.def Info: Fig8b.png  used on input line 274.
-(pdftex.def)             Requested size: 213.39566pt x 110.17717pt.
- [5 <./Fig7a.png> <./Fig7b.png> <./Fig8a.png> <./Fig8b.png>] (./Draft.bbl
+Package pdftex.def Info: Fig8b.png  used on input line 270.
+(pdftex.def)             Requested size: 221.93149pt x 81.20656pt.
+<Fig9a.png, id=161, 524.4092pt x 274.98735pt>
+File: Fig9a.png Graphic file (type png)
+<use Fig9a.png>
+Package pdftex.def Info: Fig9a.png  used on input line 276.
+(pdftex.def)             Requested size: 213.39566pt x 111.89795pt.
+<Fig9c.png, id=162, 524.4092pt x 274.98735pt>
+File: Fig9c.png Graphic file (type png)
+<use Fig9c.png>
+Package pdftex.def Info: Fig9c.png  used on input line 277.
+(pdftex.def)             Requested size: 213.39566pt x 111.89795pt.
+<Fig9b.png, id=163, 524.4092pt x 274.89702pt>
+File: Fig9b.png Graphic file (type png)
+<use Fig9b.png>
+Package pdftex.def Info: Fig9b.png  used on input line 278.
+(pdftex.def)             Requested size: 213.39566pt x 111.86119pt.
+<Fig9d.png, id=164, 524.4092pt x 274.89702pt>
+File: Fig9d.png Graphic file (type png)
+<use Fig9d.png>
+Package pdftex.def Info: Fig9d.png  used on input line 279.
+(pdftex.def)             Requested size: 213.39566pt x 111.86119pt.
+ [5 <./Fig8a.png> <./Fig8b.png> <./Fig9a.png> <./Fig9c.png> <./Fig9b.png> <./Fi
+g9d.png>] [6]
+(./Draft.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.0pt on input line 13.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 13.
-LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 13.
-) [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
+) [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
  (./Draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
 Package rerunfilecheck Info: File `Draft.out' has not changed.
-(rerunfilecheck)             Checksum: C8ECC1860458594D34D4368CDB64EA50;425.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 76B319456B8EEF1700492B5B72231EEB;326.
  ) 
 Here is how much of TeX's memory you used:
- 22688 strings out of 492649
- 400625 string characters out of 6129622
- 482326 words of memory out of 5000000
- 25928 multiletter control sequences out of 15000+600000
- 127575 words of font info for 204 fonts, out of 8000000 for 9000
+ 22724 strings out of 492649
+ 401059 string characters out of 6129622
+ 491493 words of memory out of 5000000
+ 25954 multiletter control sequences out of 15000+600000
+ 135462 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,14n,94p,1736b,816s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,14n,94p,1736b,810s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2018/texmf-dist/fonts/enc/dvips/base/ec.enc}{/usr/local/texlive/2018/tex
 mf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2018/texmf-di
@@ -1590,10 +1609,10 @@ ts/type1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
 /urw/palatino/uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/p
 alatino/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on Draft.pdf (6 pages, 6049366 bytes).
+Output written on Draft.pdf (7 pages, 6170276 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
