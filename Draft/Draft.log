@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.18)  3 JAN 2020 08:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.18)  3 JAN 2020 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1545,11 +1545,11 @@ File: Fig8.png Graphic file (type png)
 <use Fig8.png>
 Package pdftex.def Info: Fig8.png  used on input line 267.
 (pdftex.def)             Requested size: 221.93149pt x 80.85902pt.
-<Fig9.png, id=138, 330.36424pt x 308.77357pt>
+<Fig9.png, id=138, 326.84108pt x 309.22527pt>
 File: Fig9.png Graphic file (type png)
 <use Fig9.png>
 Package pdftex.def Info: Fig9.png  used on input line 272.
-(pdftex.def)             Requested size: 221.93149pt x 207.42845pt.
+(pdftex.def)             Requested size: 221.93149pt x 209.97313pt.
  [4 <./Fig5.png> <./Fig6a.png> <./Fig6b.png> <./Fig7a.png> <./Fig7b.png>]
 <Fig10a.png, id=162, 535.70137pt x 264.95988pt>
 File: Fig10a.png Graphic file (type png)
@@ -1572,10 +1572,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 292.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 292.
 Package rerunfilecheck Info: File `Draft.out' has not changed.
 (rerunfilecheck)             Checksum: 76B319456B8EEF1700492B5B72231EEB;326.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  22715 strings out of 492649
@@ -1608,7 +1604,7 @@ e1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/p
 alatino/uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatin
 o/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on Draft.pdf (6 pages, 7372359 bytes).
+Output written on Draft.pdf (6 pages, 7382848 bytes).
 PDF statistics:
  275 PDF objects out of 1000 (max. 8388607)
  211 compressed objects within 3 object streams
