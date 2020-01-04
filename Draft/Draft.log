@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.18)  4 JAN 2020 02:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.18)  4 JAN 2020 02:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1578,6 +1578,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
 Package rerunfilecheck Info: File `Draft.out' has not changed.
 (rerunfilecheck)             Checksum: 76B319456B8EEF1700492B5B72231EEB;326.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  22722 strings out of 492649
@@ -1610,7 +1614,7 @@ e1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/p
 alatino/uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatin
 o/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on Draft.pdf (6 pages, 8282008 bytes).
+Output written on Draft.pdf (6 pages, 8282086 bytes).
 PDF statistics:
  281 PDF objects out of 1000 (max. 8388607)
  214 compressed objects within 3 object streams
