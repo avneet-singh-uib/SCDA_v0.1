@@ -2,4 +2,5 @@
 \BOOKMARK [1][-]{section.2}{Linear coupled model}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{DA on the linear model}{section.2}% 3
 \BOOKMARK [2][-]{subsection.2.2}{Leading averaged cross-covariance}{section.2}% 4
-\BOOKMARK [1][-]{section.3}{Extension of LACC to non-linear case}{}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Linear coupled model with periodicity}{subsection.2.2}% 5
+\BOOKMARK [1][-]{section.3}{Extension to non-linear case}{}% 6
