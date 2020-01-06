@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.18)  6 JAN 2020 02:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.2.18)  6 JAN 2020 04:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1567,49 +1567,64 @@ File: Fig10c.png Graphic file (type png)
 Package pdftex.def Info: Fig10c.png  used on input line 282.
 (pdftex.def)             Requested size: 221.93149pt x 57.10655pt.
  [5 <./Fig8.png> <./Fig9.png> <./Fig10a.png> <./Fig10b.png> <./Fig10c.png>]
-<Fig11a.png, id=199, 265.41158pt x 126.11115pt>
+<Fig11a.png, id=201, 265.41158pt x 126.11115pt>
 File: Fig11a.png Graphic file (type png)
 <use Fig11a.png>
 Package pdftex.def Info: Fig11a.png  used on input line 292.
 (pdftex.def)             Requested size: 221.93149pt x 105.45155pt.
-<Fig11b.png, id=200, 354.8457pt x 197.47777pt>
+<Fig11b.png, id=202, 354.8457pt x 197.47777pt>
 File: Fig11b.png Graphic file (type png)
 <use Fig11b.png>
 Package pdftex.def Info: Fig11b.png  used on input line 293.
 (pdftex.def)             Requested size: 221.93149pt x 123.50766pt.
-<Fig11c.png, id=201, 579.06337pt x 310.85133pt>
+<Fig11c.png, id=203, 579.06337pt x 310.85133pt>
 File: Fig11c.png Graphic file (type png)
 <use Fig11c.png>
 Package pdftex.def Info: Fig11c.png  used on input line 294.
-(pdftex.def)             Requested size: 113.9551pt x 61.17342pt.
-<Fig11d.png, id=202, 532.53957pt x 311.03201pt>
+(pdftex.def)             Requested size: 116.60583pt x 62.59605pt.
+<Fig11d.png, id=204, 497.30794pt x 311.03201pt>
 File: Fig11d.png Graphic file (type png)
 <use Fig11d.png>
 Package pdftex.def Info: Fig11d.png  used on input line 295.
-(pdftex.def)             Requested size: 104.73457pt x 61.17342pt.
+(pdftex.def)             Requested size: 100.08206pt x 62.59605pt.
+<Fig12a.png, id=205, 266.6763pt x 126.11115pt>
+File: Fig12a.png Graphic file (type png)
+<use Fig12a.png>
+Package pdftex.def Info: Fig12a.png  used on input line 300.
+(pdftex.def)             Requested size: 221.93149pt x 104.95123pt.
+<Fig12b.png, id=206, 579.06337pt x 310.85133pt>
+File: Fig12b.png Graphic file (type png)
+<use Fig12b.png>
+Package pdftex.def Info: Fig12b.png  used on input line 301.
+(pdftex.def)             Requested size: 116.60583pt x 62.59605pt.
+<Fig12c.png, id=207, 498.48233pt x 311.03201pt>
+File: Fig12c.png Graphic file (type png)
+<use Fig12c.png>
+Package pdftex.def Info: Fig12c.png  used on input line 302.
+(pdftex.def)             Requested size: 100.3184pt x 62.59605pt.
  (./Draft.bbl
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.0pt on input line 13.
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 6 might be wrong on input line 56.
+(multicol)                Footnotes on page 6 might be wrong on input line 15.
 
-[6 <./Fig11a.png> <./Fig11b.png> <./Fig11c.png> <./Fig11d.png>]) [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
-
-(./Draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
+[6 <./Fig11a.png> <./Fig11b.png> <./Fig11c.png> <./Fig11d.png> <./Fig12a.png> <
+./Fig12b.png> <./Fig12c.png>]) [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+ (./Draft.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
 Package rerunfilecheck Info: File `Draft.out' has not changed.
 (rerunfilecheck)             Checksum: D051D7A40D7E21E690898D5000838305;414.
  ) 
 Here is how much of TeX's memory you used:
- 22751 strings out of 492649
- 401447 string characters out of 6129622
- 499537 words of memory out of 5000000
- 25974 multiletter control sequences out of 15000+600000
+ 22768 strings out of 492649
+ 401679 string characters out of 6129622
+ 499858 words of memory out of 5000000
+ 25987 multiletter control sequences out of 15000+600000
  139118 words of font info for 221 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,14n,94p,2064b,832s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1636,10 +1651,10 @@ e1/public/newtx/txsys.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/p
 alatino/uplbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatin
 o/uplri8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on Draft.pdf (7 pages, 10607803 bytes).
+Output written on Draft.pdf (7 pages, 13447695 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 231 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
- 166 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
